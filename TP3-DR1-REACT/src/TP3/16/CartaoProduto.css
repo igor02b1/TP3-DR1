@@ -1,0 +1,40 @@
+
+.cartao-produto {
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    padding: 16px;
+    text-align: center;
+    background-color: #fff;
+    margin: 16px;
+    transition: box-shadow 0.3s ease;
+  }
+  
+  .cartao-produto:hover {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  }
+  
+  .produto-imagem {
+    max-width: 150px;
+    border-radius: 4px;
+    margin-bottom: 12px;
+  }
+  
+  .produto-nome {
+    font-size: 18px;
+    font-weight: bold;
+    margin: 8px 0;
+  }
+  
+  .produto-descricao {
+    font-size: 14px;
+    color: #666;
+    margin-bottom: 12px;
+  }
+  
+  .produto-preco {
+    font-size: 16px;
+    color: #af4c4c;
+    font-weight: bold;
+  }
+  

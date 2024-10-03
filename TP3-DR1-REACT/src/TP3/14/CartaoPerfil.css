@@ -1,0 +1,50 @@
+div {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.card{
+    width: 380px;
+    height: 450px;
+    border: 1px solid black;
+    align-self: center;
+    justify-self: center;
+    background-color: rgb(146, 220, 202);
+    border-radius: 5px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s, box-shadow 0.2s;
+}
+
+.card:hover:hover {
+    transform: scale(1.05);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+  }
+  
+
+.titulo{
+    font-family: "Roboto", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    padding-bottom: 15px;
+}
+
+.card img{
+    width: 350px;
+    height: 320px;
+    border-radius: 10px;
+    border: 1px solid black;
+}
+
+.descrição{
+    font-family: "Roboto", sans-serif;
+    font-size: 12px;
+    padding-bottom: 15px;
+    align-items: center;
+    line-height: 1.5; /* Define o espaçamento entre as linhas */
+    text-align: justify; /* Justifica o texto para alinhá-lo uniformemente */
+    margin: 20px 0; /* Define margens superior e inferior */
+    padding: 0 10px; /* Adiciona padding interno ao redor do texto */
+}

@@ -1,0 +1,14 @@
+.galeria{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+}
+
+.galeria-item{
+    text-align: center; 
+}
+
+.galeria-item img {
+    border: 1px black solid;
+}
