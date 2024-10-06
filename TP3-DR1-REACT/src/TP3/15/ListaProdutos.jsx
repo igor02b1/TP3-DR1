@@ -10,13 +10,13 @@ export default function ListaProdutos() {
         },
         { 
           nome: "Camisa de Ciclismo", 
-          descricao: "Camisa respirável para ciclistas.", 
+          descricao: "", 
           preco: "R$ 129,90", 
           imagem: "https://via.placeholder.com/150" 
         }, 
         { 
           nome: "Boné Esportivo", 
-          descricao: "Boné ajustável para proteção solar.", 
+          descricao: "Boné com proteção solar.", 
           preco: "R$ 59,90", 
           imagem: "https://via.placeholder.com/150" 
         }
