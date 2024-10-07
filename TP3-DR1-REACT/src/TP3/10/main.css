@@ -2,4 +2,37 @@
   padding: 0;
   margin: 0;
   box-sizing: border-box;
+  font-family:Arial, Helvetica, sans-serif;
+}
+
+.box-pai{
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.box{
+  background-color: whitesmoke;
+  border: 1px solid black;
+  border-radius: 5px;
+  width: 350px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-bottom: 80px;
+}
+
+.box ul li{
+  list-style: none;
+  padding: 10px;
+  border: 1px solid black;
+}
+
+.box h1{
+  padding: 30px 0px 10px 0px;
+}
+
+.botao-adicionar{
+  margin-top: 10px;
 }
